@@ -1,0 +1,41 @@
+ @font-face {
+  font-family: krist;
+  src: url('armatic.ttf');
+}
+
+.box {
+  width: 700px;
+  height: 400px;
+  align-self: center;
+  border: solid;
+  margin: 0 auto;
+  font-size: 35px;
+  background-color: #fadfad;
+}
+
+.jj {
+  font-family: krist;
+  font-size: 55px;
+  margin: 10px 0;
+}
+
+.mainbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  margin-left: 0;
+  margin-top: 50px;
+}
+.class12{
+    font-family: krist;
+    border:solid;
+    width:96%;
+    height:100px;
+    background-color:blue;
+    border-color: black;
+    font-size:75px;
+    color:white;
+}

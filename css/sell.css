@@ -1,0 +1,112 @@
+@font-face {
+    font-family: krist;
+    src: url('armatic.ttf');
+    }
+body {
+    background-image: url("yellowback.jpg");
+    margin: 0px;
+    font-family: 'krist', sans-serif;
+}
+
+.mainbox {
+    margin-top: 50px;
+    width: 800px;
+    height: 1100px;
+    border: 5px solid black;
+    padding: 50px;
+    margin: auto;
+    background-color: #FDEE00;
+    align-self: center;
+}
+
+.maintitle {
+    font-size: 85px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: krist;
+}
+
+label {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"], textarea {
+    font-size: 45px;
+    width: 200px;
+    height: 65px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+
+
+select {
+    font-size: 45px;
+    width: 200px;
+    height: 65px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+input[type="text"]#bookname {
+    font-size: 45px;
+    width: 400px;
+    height: 65px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"]#price{
+    font-size: 45px;
+    width: 400px;
+    height: 65px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"]#contact{
+    font-size: 45px;
+    width: 400px;
+    height: 65px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+textarea#description {
+    font-size: 45px;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-family: krist;
+}
+.name{
+    font-size: 45px;
+    width: 10px;
+    height:35px;
+    font-family: krist;
+    background-color: #fadfad;
+    box-sizing: border-box;
+}
+.sell{
+    color:white;
+font-family: krist;
+border:solid;
+width:96%;
+height:80px;
+background-color:blue;
+font-size:55px;
+border-color: black;
+}
+.sell:hover{
+    background-color:#ff7a01;
+    color:black;
+    }
+    
+

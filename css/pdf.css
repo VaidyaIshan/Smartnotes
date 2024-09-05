@@ -1,0 +1,86 @@
+
+@font-face {
+font-family: krist;
+src: url('armatic.ttf');
+}
+ body{
+     background-image:url("yellowback.jpg");
+     margin:0px;
+ }
+  .mainbox{
+    margin-top:50px;
+           width:500px;
+        height: 1100px;
+  border: 5px solid black;
+padding: 50px;
+margin:auto;
+align-self: center;
+background-color: #FDEE00;
+
+ }
+ .maintitle1{
+     font-family: krist;
+     font-size: 85px;
+     align-self: center;
+     align-content: center;
+     margin-left: 100px;
+     margin-top:30px;
+ }
+ .woo{
+     font-family: krist;
+     font-size: 45px;
+ }
+ .grade{
+     background-color: black;
+     height:30px;
+ }
+ select {
+background-color: #fff;
+border: 1px solid #ccc;
+padding: 5px;
+font-size: 45px;
+width: 200px;
+height:65px;
+font-family: krist;
+background-color: #fadfad;
+}
+.filename{
+font-size: 45px;
+width: 200px;
+height:65px;
+font-family: krist;
+background-color: #fadfad;
+
+}
+.oo{
+font-size: 25px;
+width:100p0x;
+background-color: #fadfad;
+font-family: krist;
+}
+.description{
+font-size: 45px;
+width: 500px;
+height:205px;
+font-family: krist;
+background-color: #fadfad;
+
+}
+::placeholder{
+color: black;
+opacity: 1;
+}
+.UPLOAD{
+color:white;
+font-family: krist;
+border:solid;
+width:96%;
+height:80px;
+background-color:blue;
+font-size:55px;
+border-color: black;
+}
+.UPLOAD:hover{
+background-color:#ff7a01;
+color:black;
+}

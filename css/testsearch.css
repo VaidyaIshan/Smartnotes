@@ -1,0 +1,100 @@
+
+
+@font-face {
+font-family: krist;
+src: url('armatic.ttf');
+}
+ body{
+     background-image:url("yellowback.jpg");
+    margin:0px;
+ }
+.mainbox{
+    margin-top:50px;
+           width:900px;
+        height: 1500px;
+  border: 5px solid black;
+padding: 50px;
+margin:auto;
+align-self: center;
+background-color: #FDEE00;
+
+ }
+  .maintitle1{
+     font-family: krist;
+     font-size: 85px;
+     align-self: center;
+     align-content: center;
+     margin-left: 33%;
+     margin-top:30px;
+ }
+ .searchbar{
+     font-size: 45px;
+width: 100%;
+height:55px;
+font-family: krist;
+background-color: #fadfad;
+padding: 10px;
+box-sizing: border-box;
+ }
+ .SUBMIT{
+     font-family: krist;
+border:solid;
+width:100%;
+height:80px;
+color:WHITE;
+background-color:#3457d5;
+font-size:55px;
+border-color: black;
+margin-top: 20px;
+cursor: pointer;
+ }
+
+ .search-results {
+margin-top: 50px;
+font-size: 45px;
+font-family: krist;
+}
+
+.search-results a {
+color: #3457d5;
+text-decoration: none;
+}
+
+.search-results a:hover {
+text-decoration: underline;
+}
+
+.search-results li {
+margin-bottom: 20px;
+}
+
+.search-results ul {
+list-style-type: none;
+padding: 0;
+}
+
+.search-results li::before {
+content: '▶ ';
+margin-right: 10px;
+}
+.userinfo{
+margin-top: 10px;
+margin-left:90%;
+font-family: krist;
+border:solid;
+width:160px;
+height:80px;
+background-color:#3457d5;;
+border-color: black;
+font-size:35px;
+color:white;
+}
+ .maintitle3{
+     font-family: krist;
+     font-size: 85px;
+     align-self: center;
+     align-content: center;
+     margin-left: 22%;
+     margin-top:30px;
+ }
+

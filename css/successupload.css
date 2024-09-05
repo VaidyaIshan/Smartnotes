@@ -1,0 +1,42 @@
+
+           @font-face {
+  font-family: krist;
+  src: url('armatic.ttf');
+}
+            body{
+                background-image:url("yellowback.jpg");
+                margin:0px;
+            }
+             .mainbox{
+               margin-top:50px;
+                      width:500px;
+                   height: 1100px;
+             border: 5px solid black;
+  padding: 50px;
+  margin:auto;
+  align-self: center;
+  background-color: #FDEE00;
+
+            }
+             .maintitle1{
+                font-family: krist;
+                font-size: 85px;
+                
+            
+                margin-left: 100px;
+                margin-top:30px;
+            }
+            .class12{
+              color:white;
+    font-family: krist;
+    border:solid;
+    width:96%;
+    height:80px;
+    background-color:blue;
+    font-size:55px;
+    border-color: black;
+}
+.class12:hover{
+    background-color:#ffba00;
+}
+      

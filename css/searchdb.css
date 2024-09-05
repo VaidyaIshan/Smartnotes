@@ -1,0 +1,21 @@
+
+body{
+  background-image:url("yellowback.jpg");
+  margin:0px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color:#fadfad;
+  font-family: krist;
+  font-size: 45px;
+}
+th, td {
+  border: 1px solid black;
+  padding: 15px;
+  text-align: left;
+  font-family: krist;
+}
+th {
+  background-color: #fadfad;
+}

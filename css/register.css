@@ -1,0 +1,216 @@
+
+		@font-face {
+  font-family: krist;
+  src: url('armatic.ttf');
+}
+		body{
+			background-image:url('yellowback.jpg');
+		}
+		.mainbox{
+		 top:50px;
+         width: 600px;
+         height: 1000px;
+        border: 1px solid black;
+  padding: 50px;
+  margin:auto;
+  align-self: center;
+  font-family:krist;
+  background-color:#fdee00;
+    
+}
+.textbox{
+    width: 500px;
+  height: 50px;
+  background-color:FADFAD;
+  }
+  .maintitle{
+  	font-size:65px;
+    text-align: center;
+    margin-top:10px;
+    font-family: krist;
+  }
+  ::placeholder{
+  	color: black;
+  opacity: 1;
+  }
+  .REGISTER{
+    margin-left: 16%;
+    background-color:blue;
+    color:white;
+      border:none;
+      height: 75px;
+      width:350px;
+      cursor: pointer;
+     border-radius:5px;
+     font-family: krist;
+     font-size:40px;
+     font-style: bold;
+     border: solid;
+     border-color: black;
+  }
+  .REGISTER:hover{
+    background-color:white;
+    color:black;
+  }
+
+		@font-face {
+  font-family: krist;
+  src: url('armatic.ttf');
+}
+		body{
+			background-image:url('yellowback.jpg');
+		}
+		.mainbox{
+		 top:50px;
+         width: 600px;
+         height: 1000px;
+        border: 1px solid black;
+  padding: 50px;
+  margin:auto;
+  align-self: center;
+  font-family:krist;
+  background-color:#fdee00;
+    
+}
+.textbox{
+    width: 500px;
+  height: 50px;
+  background-color:FADFAD;
+  }
+  .maintitle{
+  	font-size:65px;
+    text-align: center;
+    margin-top:10px;
+    font-family: krist;
+  }
+  ::placeholder{
+  	color: black;
+  opacity: 1;
+  }
+  .REGISTER{
+    margin-left: 16%;
+    background-color:blue;
+    color:white;
+      border:none;
+      height: 75px;
+      width:350px;
+      cursor: pointer;
+     border-radius:5px;
+     font-family: krist;
+     font-size:40px;
+     font-style: bold;
+     border: solid;
+     border-color: black;
+  }
+  .REGISTER:hover{
+    background-color:white;
+    color:black;
+  }
+
+		@font-face {
+  font-family: krist;
+  src: url('armatic.ttf');
+}
+		body{
+			background-image:url('yellowback.jpg');
+		}
+		.mainbox{
+		 top:50px;
+         width: 600px;
+         height: 1000px;
+        border: 1px solid black;
+  padding: 50px;
+  margin:auto;
+  align-self: center;
+  font-family:krist;
+  background-color:#fdee00;
+    
+}
+.textbox{
+    width: 500px;
+  height: 50px;
+  background-color:FADFAD;
+  }
+  .maintitle{
+  	font-size:65px;
+    text-align: center;
+    margin-top:10px;
+    font-family: krist;
+  }
+  ::placeholder{
+  	color: black;
+  opacity: 1;
+  }
+  .REGISTER{
+    margin-left: 16%;
+    background-color:blue;
+    color:white;
+      border:none;
+      height: 75px;
+      width:350px;
+      cursor: pointer;
+     border-radius:5px;
+     font-family: krist;
+     font-size:40px;
+     font-style: bold;
+     border: solid;
+     border-color: black;
+  }
+  .REGISTER:hover{
+    background-color:white;
+    color:black;
+  }
+
+		@font-face {
+  font-family: krist;
+  src: url('armatic.ttf');
+}
+		body{
+			background-image:url('yellowback.jpg');
+		}
+		.mainbox{
+		 top:50px;
+         width: 600px;
+         height: 1000px;
+        border: 1px solid black;
+  padding: 50px;
+  margin:auto;
+  align-self: center;
+  font-family:krist;
+  background-color:#fdee00;
+    
+}
+.textbox{
+    width: 500px;
+  height: 50px;
+  background-color:FADFAD;
+  }
+  .maintitle{
+  	font-size:65px;
+    text-align: center;
+    margin-top:10px;
+    font-family: krist;
+  }
+  ::placeholder{
+  	color: black;
+  opacity: 1;
+  }
+  .REGISTER{
+    margin-left: 16%;
+    background-color:blue;
+    color:white;
+      border:none;
+      height: 75px;
+      width:350px;
+      cursor: pointer;
+     border-radius:5px;
+     font-family: krist;
+     font-size:40px;
+     font-style: bold;
+     border: solid;
+     border-color: black;
+  }
+  .REGISTER:hover{
+    background-color:white;
+    color:black;
+  }

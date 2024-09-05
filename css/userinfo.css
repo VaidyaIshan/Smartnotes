@@ -1,0 +1,230 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Bahnschrift', Arial, sans-serif;
+  overflow: auto; /* Allow scrolling */
+}
+
+.video-background {
+  position: fixed; /* Fixes the video to the background */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Ensures the video is behind other content */
+}
+
+#bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the whole screen */
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: #333;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #2B2D42;
+}
+
+.navbar .logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.social-icon, .nav-icon {
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icon:hover, .nav-icon:hover {
+  color: #555;
+}
+
+.hamburger {
+  display: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2B2D42;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Grid Container */
+.grid-container {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  position: relative; /* Allows overlap with the background */
+  z-index: 1; /* Ensure it's above the video background */
+  grid-template-columns: 1fr; /* Full width for smaller screens */
+}
+
+/* Main Grid */
+.main-grid {
+  padding: 30px;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+.main-grid:hover {
+  transform: scale(1.02) translateX(-5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* User Info Content */
+.user-info-content {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #2B2D42;
+  border-radius: 10px;
+  text-align: center;
+  color:white;
+}
+
+.maintitle1 {
+  font-size: 36px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.info-column {
+  flex: 1;
+  padding: 10px;
+}
+
+.info-column p {
+  font-size: 24px; /* Adjust font size for larger text */
+  margin: 0;
+  font-family: 'Bahnschrift', Arial, sans-serif;
+}
+.no-info {
+    text-align: center;
+    color: white;
+}
+
+.sign-in-button {
+    display: inline-block;
+    background-color: #2B2D42;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+    transition: background-color 0.3s​⬤
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-links {
+      flex-direction: column;
+      width: 100%;
+      display: none;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+
+  .navbar a {
+      width: 100%;
+      text-align: left;
+  }
+
+  .hamburger {
+      display: block;
+  }
+
+  .grid-container {
+      grid-template-columns: 1fr;
+  }
+
+  .info-row {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .maintitle1 {
+      font-size: 24px;
+  }
+}
